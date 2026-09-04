@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m32/proprietary/system/media/water_protection_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/water_protection_usb.spi \
     vendor/samsung/m32/proprietary/vendor/bin/camera_tilt_calibration_info_1_4_default.bin:$(TARGET_COPY_OUT_VENDOR)/bin/camera_tilt_calibration_info_1_4_default.bin \
     vendor/samsung/m32/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
-    vendor/samsung/m32/proprietary/vendor/bin/hw/sec.android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sec.android.hardware.nfc@1.2-service \
+    vendor/samsung/m32/proprietary/vendor/bin/hw/nxp.android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/nxp.android.hardware.nfc@1.2-service \
     vendor/samsung/m32/proprietary/vendor/bin/hw/vendor.samsung.hardware.light-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.light-service \
     vendor/samsung/m32/proprietary/vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.thermal@1.0-service \
     vendor/samsung/m32/proprietary/vendor/bin/ipsec_mon:$(TARGET_COPY_OUT_VENDOR)/bin/ipsec_mon \
@@ -348,17 +348,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m32/proprietary/vendor/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml \
     vendor/samsung/m32/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/m32/proprietary/vendor/etc/init/init.nfc.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.samsung.rc \
-    vendor/samsung/m32/proprietary/vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sec.android.hardware.nfc@1.2-service.rc \
+    vendor/samsung/m32/proprietary/vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp.android.hardware.nfc@1.2-service.rc \
+    vendor/samsung/m32/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/samsung/m32/proprietary/vendor/etc/nfc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp_RF.conf \
     vendor/samsung/m32/proprietary/vendor/etc/mercury.json:$(TARGET_COPY_OUT_VENDOR)/etc/mercury.json \
-    vendor/samsung/m32/proprietary/vendor/etc/nfc/sec_s3nrn4v_hwreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn4v_hwreg.bin \
-    vendor/samsung/m32/proprietary/vendor/etc/nfc/sec_s3nrn4v_swreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn4v_swreg.bin \
     vendor/samsung/m32/proprietary/vendor/etc/SetMultiCal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/SetMultiCal.bin \
     vendor/samsung/m32/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/m32/proprietary/vendor/firmware/aw8896_cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8896_cfg.bin \
     vendor/samsung/m32/proprietary/vendor/firmware/aw8896_fw_e.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8896_fw_e.bin \
     vendor/samsung/m32/proprietary/vendor/firmware/aw8896_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8896_reg.bin \
     vendor/samsung/m32/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
-    vendor/samsung/m32/proprietary/vendor/firmware/nfc/sec_s3nrn4v_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn4v_firmware.bin \
+    vendor/samsung/m32/proprietary/vendor/firmware/nfc/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/libpn557_fw.so \
     vendor/samsung/m32/proprietary/vendor/firmware/WIFI:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI \
     vendor/samsung/m32/proprietary/vendor/lib64/gc02m1b_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_raw_IdxMgr.so \
     vendor/samsung/m32/proprietary/vendor/lib64/gc02m1b_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_raw_tuning.so \
@@ -460,7 +460,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m32/proprietary/vendor/lib64/libvdis_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvdis_core.so \
     vendor/samsung/m32/proprietary/vendor/lib64/libvdis.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvdis.uniplugin@1.0.so \
     vendor/samsung/m32/proprietary/vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so \
-    vendor/samsung/m32/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so \
+    vendor/samsung/m32/proprietary/vendor/lib64/nfc_nci_nxpsn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_nxpsn.so \
     vendor/samsung/m32/proprietary/vendor/lib64/s5kgw3_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgw3_mipi_raw_IdxMgr.so \
     vendor/samsung/m32/proprietary/vendor/lib64/s5kgw3_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgw3_mipi_raw_tuning.so \
     vendor/samsung/m32/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
@@ -557,4 +557,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m32/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
 
 PRODUCT_PACKAGES += \
-    sec.android.hardware.nfc@1.2-service.xml
+    nxp.android.hardware.nfc@1.2-service.xml
