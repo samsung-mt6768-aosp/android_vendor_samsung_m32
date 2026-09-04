@@ -354,6 +354,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m32/proprietary/vendor/etc/nfc/sec_s3nrn4v_swreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn4v_swreg.bin \
     vendor/samsung/m32/proprietary/vendor/etc/SetMultiCal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/SetMultiCal.bin \
     vendor/samsung/m32/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
+    vendor/samsung/m32/proprietary/vendor/firmware/aw8896_cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8896_cfg.bin \
+    vendor/samsung/m32/proprietary/vendor/firmware/aw8896_fw_e.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8896_fw_e.bin \
+    vendor/samsung/m32/proprietary/vendor/firmware/aw8896_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8896_reg.bin \
     vendor/samsung/m32/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
     vendor/samsung/m32/proprietary/vendor/firmware/nfc/sec_s3nrn4v_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn4v_firmware.bin \
     vendor/samsung/m32/proprietary/vendor/firmware/WIFI:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI \
