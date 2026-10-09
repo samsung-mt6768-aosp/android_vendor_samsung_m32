@@ -370,7 +370,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m32/proprietary/vendor/lib64/gc5035_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5035_mipi_raw_tuning.so \
     vendor/samsung/m32/proprietary/vendor/lib64/hi2021q_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hi2021q_mipi_raw_IdxMgr.so \
     vendor/samsung/m32/proprietary/vendor/lib64/hi2021q_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hi2021q_mipi_raw_tuning.so \
-    vendor/samsung/m32/proprietary/vendor/lib64/hw/audio.primary.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6768.so \
     vendor/samsung/m32/proprietary/vendor/lib64/hw/camera.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.mt6768.so \
     vendor/samsung/m32/proprietary/vendor/lib64/hw/gatekeeper.mt6769t.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.mt6769t.so \
     vendor/samsung/m32/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so \
@@ -480,7 +479,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m32/proprietary/vendor/lib/gc5035b_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5035b_mipi_raw_tuning.so \
     vendor/samsung/m32/proprietary/vendor/lib/gc5035_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5035_mipi_raw_tuning.so \
     vendor/samsung/m32/proprietary/vendor/lib/hi2021q_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/hi2021q_mipi_raw_tuning.so \
-    vendor/samsung/m32/proprietary/vendor/lib/hw/audio.primary.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6768.so \
     vendor/samsung/m32/proprietary/vendor/lib/hw/gatekeeper.mt6769t.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt6769t.so \
     vendor/samsung/m32/proprietary/vendor/lib/imx355_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw_tuning.so \
     vendor/samsung/m32/proprietary/vendor/lib/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_cust.so \
